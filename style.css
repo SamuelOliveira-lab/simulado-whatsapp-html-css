@@ -1,0 +1,72 @@
+header {
+    background-color: #075e54;
+    color: white;
+}
+
+header a {
+    float: right;
+    padding: 28px;
+
+}
+
+h1 {
+    display: inline-block;
+    padding: 16px;
+    font-family: sans-serif;
+}
+
+.acoes {
+    position: fixed;
+    bottom: 0;
+    box-shadow: -1px -1px 3px #000;
+    width: 100%;
+    background-color: #075e54;
+}
+
+.contatos {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.conversas {
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.conversas img {
+    height: 52px;
+    border-radius: 64px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+
+
+h4 {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.conversas div {
+    color: #696969;
+}
+
+.hora {
+    font-size: 14pt;
+    color: #696969;
+    float: right;
+    margin-top: -35px;
+
+}
+
+footer {
+    background-color: #075e54;
+    padding: 16px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
